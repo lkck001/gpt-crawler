@@ -1,8 +1,8 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "https://www.zhihu.com/topics",
-  match: "https://www.zhihu.com/topics",
+  url: "https://www.builder.io/c/docs/developers",
+  match: "https://www.builder.io/c/docs/**",
   maxPagesToCrawl: 50,
   outputFileName: "output.json",
 };
